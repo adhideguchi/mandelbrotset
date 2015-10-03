@@ -1,4 +1,4 @@
-Mandelbrot Set Generator
+#Mandelbrot Set Generator
 
 Original Code in C++ by Solarian Programmer (https://solarianprogrammer.com/2013/02/28/mandelbrot-set-cpp-11/)
 
@@ -6,12 +6,13 @@ Translated Code in pure C by Antonio Ideguchi
 
 You'll need FreeImage lib (dnf install freeimage freeimage-devel (Fedora 22))
 
-Compiling:
+##Compiling:
 
 $ gcc -std=c11 -O3 -o mandel save_image.c mandel.c -lfreeimage -lm
+
 $ clang -std=c11 -03 -o mandel save_image.c mandel.c -lfreeimage -lm
 
-Executing
+##Executing
 
 $ ./mandel
 
